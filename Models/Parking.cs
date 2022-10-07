@@ -7,10 +7,10 @@ namespace DesafioFundamentos.Models
         private decimal precoPorHora = 0;
         private List<string> veiculos = new List<string>();
 
-        public Parking (decimal precoInicial, decimal precoPorHora)
+        public Parking (decimal _precoInicial, decimal _precoPorHora)
         {
-            this.precoInicial = precoInicial;
-            this.precoPorHora = precoPorHora;
+            this.precoInicial = _precoInicial;
+            this.precoPorHora = _precoPorHora;
         }
 
         public void AdicionarVeiculo()
