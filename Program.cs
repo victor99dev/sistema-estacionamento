@@ -1,17 +1,17 @@
 ﻿using DesafioFundamentos.Models;
 
-decimal precoInicial = 0;
-decimal precoPorHora = 0;
+decimal initialPrice = 0;
+decimal pricePerHour = 0;
 
 Console.WriteLine("Seja bem vindo ao sistema de estacionamento!\n" +
                   "Digite o preço inicial:");
-precoInicial = Convert.ToDecimal(Console.ReadLine());
+initialPrice = Convert.ToDecimal(Console.ReadLine());
 
 Console.WriteLine("Agora digite o preço por hora:");
-precoPorHora = Convert.ToDecimal(Console.ReadLine());
+pricePerHour = Convert.ToDecimal(Console.ReadLine());
 
 // Instancia a classe Parking, já com os valores obtidos anteriormente
-Parking es = new Parking(precoInicial, precoPorHora);
+Parking es = new Parking(initialPrice, pricePerHour);
 
 string opcao = string.Empty;
 bool exibirMenu = true;

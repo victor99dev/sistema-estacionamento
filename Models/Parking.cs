@@ -3,14 +3,14 @@ namespace DesafioFundamentos.Models
 {
     public class Parking
     {
-        private decimal precoInicial = 0;
-        private decimal precoPorHora = 0;
+        private decimal initialPrice = 0;
+        private decimal pricePerHour = 0;
         private List<string> veiculos = new List<string>();
 
-        public Parking (decimal _precoInicial, decimal _precoPorHora)
+        public Parking (decimal _initialPrice, decimal _pricePerHour)
         {
-            this.precoInicial = _precoInicial;
-            this.precoPorHora = _precoPorHora;
+            this.initialPrice = _initialPrice;
+            this.pricePerHour = _pricePerHour;
         }
 
         public void AdicionarVeiculo()
@@ -33,7 +33,7 @@ namespace DesafioFundamentos.Models
                 decimal horas = 0;
                 decimal valorTotal = 0; 
                 horas = Convert.ToDecimal(Console.ReadLine());
-                valorTotal = (precoInicial) + precoPorHora * horas;
+                valorTotal = (initialPrice) + pricePerHour * horas;
 
                 veiculos.Remove(placa);
 
