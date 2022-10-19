@@ -53,6 +53,9 @@ O veículo AAA0A00 foi removido e o preço total foi de: R$ 33,96
 
 <b>Segue a lista de commits para verificar o que foi alterado!</b>
 
+<b>[Certificado do Projeto](https://www.dio.me/certificate/7B88E5F1/share)</b>
+
+
 ## 👩‍💻 Meus Links:
 
 - Github: [Victor Hugo.](https://github.com/torugo99)
