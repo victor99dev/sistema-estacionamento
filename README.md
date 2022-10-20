@@ -64,4 +64,4 @@ O veículo AAA0A00 foi removido e o preço total foi de: R$ 33,96
 
 ### 😀 | Créditos e Agradecimentos:
 
-- Obrigado a DIO a essa oportunidade de UP na minha carreira! ❤️
+- Obrigado a DIO a essa oportunidade de UP na minha carreira! ❤️ 
